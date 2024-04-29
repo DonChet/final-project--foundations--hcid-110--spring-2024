@@ -1,16 +1,14 @@
 @use 'variables' as *;
 @use 'reset' as *;
-// Import Google Fonts
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
 
-// Define your color variables
-$color1: #ff6347; // Tomato
-$color2: #40e0d0; // Turquoise
+$color1: #ff6347;
+$color2: #40e0d0;
 
 body {
-    height: 100vh; /* This will set the body height equal to the viewport height */
-    overflow: hidden; /* This will hide the scrollbar and disable scrolling */
+    height: 100vh;
+    overflow: hidden;
     font-family: 'Roboto', sans-serif;
     color: $color1;
 }
@@ -20,15 +18,11 @@ h1, h2, h3, h4, h5, h6 {
     color: $color2;
 }
 
-// Add your styles here
 @media (max-width: 400px) {
-    // Styles for phone
 }
 
 @media (min-width: 401px) and (max-width: 768px) {
-    // Styles for tablet
 }
 
 @media (min-width: 769px) {
-    // Styles for desktop
 }
